@@ -19,11 +19,3 @@ jobs:
   
         - name: install dependencies
           run: npm ci
-  
-        - name: Print debugging information
-          run: | 
-            echo "Node Version: $(node --version)"
-            echo "NPM Version: $(npm --version)"
-            echo "Wroking Directory: $(pwd)"
-            echo "Contents of Working Directory: $(ls -l)"
-            echo "Contents of node_modules: $(ls -l node_modules)"
